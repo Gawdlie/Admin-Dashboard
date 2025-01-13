@@ -27,7 +27,6 @@
     color: white;
     display: flex;
     font-weight: bold;
-    gap: 6px;
 }
 
 .feature-container {
@@ -47,6 +46,8 @@
     justify-content: center;
 }
 
-img {
+.dash-heading > img,
+.main-features > div > img {
     height: 30px;
+    margin-right: 10px;
 }
