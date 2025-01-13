@@ -26,6 +26,8 @@
 .dash-heading {
     color: white;
     display: flex;
+    font-weight: bold;
+    gap: 6px;
 }
 
 .feature-container {
@@ -35,4 +37,16 @@
     font-weight: bold;
     gap: 50px;
     text-align: center;
+}
+
+.dash-heading > div,
+.main-features > div,
+.bottom-features > div {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+img {
+    height: 30px;
 }
